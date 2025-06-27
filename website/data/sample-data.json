@@ -1,0 +1,54 @@
+{
+    "@graph": [
+        {
+            "id": "1",
+            "title": "Fuente de la Plaza Mayor",
+            "organization": {
+                "organization-desc": "Fuente"
+            },
+            "address": {
+                "district-id": "Centro"
+            },
+            "condition": "Operational",
+            "location": {
+                "latitude": 40.415363,
+                "longitude": -3.707398
+            },
+            "description": "Historic fountain in the main square of Madrid",
+            "image": "https://example.com/fuente-plaza-mayor.jpg"
+        },
+        {
+            "id": "2",
+            "title": "Bebedero del Retiro",
+            "organization": {
+                "organization-desc": "Bebedero"
+            },
+            "address": {
+                "district-id": "Retiro"
+            },
+            "condition": "Operational",
+            "location": {
+                "latitude": 40.4138,
+                "longitude": -3.6837
+            },
+            "description": "Modern drinking fountain in Retiro Park",
+            "image": "https://example.com/bebedero-retiro.jpg"
+        },
+        {
+            "id": "3",
+            "title": "Fuente de Neptuno",
+            "organization": {
+                "organization-desc": "Fuente"
+            },
+            "address": {
+                "district-id": "Centro"
+            },
+            "condition": "Non-operational",
+            "location": {
+                "latitude": 40.4189,
+                "longitude": -3.6919
+            },
+            "description": "Famous fountain currently under maintenance"
+        }
+    ]
+}
